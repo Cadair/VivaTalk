@@ -65,7 +65,7 @@ if( window.location.search.match( /print-pdf/gi ) ) {
 {% for css in resources.inlining.css -%}
     <style type="text/css">
     {{ css }}
-    </style>
+   </style>
 {% endfor %}
 
 <style type="text/css">

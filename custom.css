@@ -1,5 +1,6 @@
 body {
-    font-size: 140%;
+    font-size: 160%;
+    font-family: Lato, Ariel, sans-serif !important;
 }
 
 div.slides {
@@ -34,4 +35,27 @@ div.highlight {
 
 div.output_html {
     font-size: 85%;
+}
+
+div.output_subarea {
+    max-width: 100%; !important
+}
+
+div.output_png {
+    text-align: center;
+}
+
+li {
+    padding-top: 1em !important;
+}
+
+ul.logos {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+ul.logos li {
+    list-style: none;
+    height:150px;
 }
