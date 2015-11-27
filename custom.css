@@ -58,4 +58,14 @@ ul.logos {
 ul.logos li {
     list-style: none;
     height:150px;
+
+}
+
+.output_stderr {
+    display: none;
+}
+
+div.output_area .rendered_html img, div.output_area .rendered_html table {
+    margin-left: auto;
+    margin-right: auto;
 }
