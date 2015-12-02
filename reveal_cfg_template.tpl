@@ -200,7 +200,9 @@ Reveal.initialize({
     width: '80%',
 
     parallaxBackgroundImage: 'images/background_1.jpg',
-    parallaxBackgroundSize: '3800px 1200px'
+    parallaxBackgroundSize: '3800px 1200px',
+
+    keyboard: {50:'next'}
 
 });
 
