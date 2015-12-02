@@ -42,7 +42,7 @@ div.output_html {
 }
 
 div.output_subarea {
-    max-width: 100%; !important
+    max-width: 100% !important;
 }
 
 div.output_png {
@@ -84,4 +84,35 @@ div.output_area .rendered_html img, div.output_area .rendered_html table {
 
 .align-center {
     text-align: center;
+}
+
+.reveal i {
+    font-size: inherit !important;
+    font-style: italic !important;
+}
+
+.cite2c-dialog .twitter-typeahead {
+    margin: 8px;
+    width: 90%;
+}
+
+.cite2c-dialog .tt-input {
+    width: 100%;
+}
+
+.cite2c-dialog .tt-dropdown-menu {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cite2c-dialog .tt-suggestion {
+    padding: 4px;
+}
+.cite2c-dialog .tt-suggestion.tt-cursor {
+    background-color: #eee;
+}
+
+.csl-entry {
+    padding: 0.4em 0 !important;
 }
