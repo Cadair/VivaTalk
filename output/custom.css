@@ -116,3 +116,12 @@ div.output_area .rendered_html img, div.output_area .rendered_html table {
 .csl-entry {
     padding: 0.4em 0 !important;
 }
+
+.rendered_html blockquote {
+    font-family: serif;
+    font-size: 150%;
+    line-height: 130%;
+    margin: 5px auto;
+    width: 90%;
+    text-align: center;
+}

@@ -77,7 +77,7 @@ html {
   overflow-y: auto;
 }
 .reveal {
-  font-size: 160%;
+  font-size: 180%;
 }
 .reveal pre {
   width: inherit;
@@ -202,8 +202,7 @@ Reveal.initialize({
     parallaxBackgroundImage: 'images/background_1.jpg',
     parallaxBackgroundSize: '3800px 1200px',
 
-    keyboard: {50:'next'}
-
+    slideNumber: true
 });
 
 </script>
