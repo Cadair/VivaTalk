@@ -397,10 +397,10 @@ def add_phase_speeds(ax, x, y, va_line, cs_line, x_shift=60, color='k', dx_scale
     t_vs = np.cumsum(delta_t_vs) + x_shift
 
     lines = []
-    lines += ax.plot(t_va, y, label=r"$V_A$", linewidth=2, linestyle=':', color=color, label=r"$V_A$")#b
-    lines += ax.plot(t_cs, y, label=r"$C_s$", linewidth=2, linestyle='--', color=color, label=r"$C_s$")#g
-    lines += ax.plot(t_vf, y, label=r"$V_f$", linewidth=2, linestyle='-.', color=color, label=r"$V_f$")#r
-    lines += ax.plot(t_vs, y, label=r"$V_s$", linewidth=2, linestyle='-', color=color, label=r"$V_s$")#c
+    lines += ax.plot(t_va, y, label=r"$V_A$", linewidth=3, linestyle=':', color=color)#b
+    lines += ax.plot(t_cs, y, label=r"$C_s$", linewidth=3, linestyle='--', color=color)#g
+    lines += ax.plot(t_vf, y, label=r"$V_f$", linewidth=3, linestyle='-.', color=color)#r
+    lines += ax.plot(t_vs, y, label=r"$V_s$", linewidth=3, linestyle='-', color=color)#c
 
     return lines
 
