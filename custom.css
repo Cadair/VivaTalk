@@ -125,3 +125,8 @@ div.output_area .rendered_html img, div.output_area .rendered_html table {
     width: 90%;
     text-align: center;
 }
+
+sup {
+    vertical-align: sub !important;
+    font-size: smaller;
+} 
